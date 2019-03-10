@@ -43,7 +43,6 @@ reboot
 else
 rpm -ivh http://file.asuhu.com/kernel/kernel-3.10.0-229.1.2.el7.x86_64.rpm --force
 grub2-set-default `awk -F\' '$1=="menuentry " {print i++ " : " $2}' /etc/grub2.cfg | grep '(3.10.0-229.1.2.el7.x86_64) 7 (Core)'|awk '{print $1}'`
-echo -e "\033[41;36m  1s later will reboot your server  \033[0m";
-sleep 1
+echo -e "\033[41;36m  reboot your server and  bash ssr_ServerSpeeder.sh again   \033[0m";
 reboot
 fi
