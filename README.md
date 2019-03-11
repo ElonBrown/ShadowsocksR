@@ -19,5 +19,5 @@ service serverSpeeder status
 ``` bash
 systemctl status ShadowsocksR
 # 或者
-bash install.sh
+bash ssr.sh
 ```
