@@ -1,6 +1,7 @@
 # Debian and Centos
 # install ShadowsocksR
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/ElonBrown/ShadowsocksR/master/ssr_ServerSpeeder/ssr.sh
+chmod +x ssr.sh
 bash ssr.sh
 
 # install bbr
