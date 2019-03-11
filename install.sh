@@ -2,7 +2,6 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 export PATH
 
-
 if [ -f /etc/redhat-release ]; then
     release="centos"
 elif cat /etc/issue | grep -Eqi "debian"; then
