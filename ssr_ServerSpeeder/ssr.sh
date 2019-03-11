@@ -1448,6 +1448,7 @@ menu_status(){
 		echo -e " 当前状态: ${Red_font_prefix}未安装${Font_color_suffix}"
 	fi
 }
+
 check_sys
 [[ ${release} != "debian" ]] && [[ ${release} != "ubuntu" ]] && [[ ${release} != "centos" ]] && echo -e "${Error} 本脚本不支持当前系统 ${release} !" && exit 1
 echo -e "  ShadowsocksR 一键管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
