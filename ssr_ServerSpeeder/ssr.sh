@@ -1521,6 +1521,7 @@ case "$num" in
 	Update_Shell
 	;;
 	*)
-	echo -e "${Error} 请输入正确的数字 [1-15]"
+	echo -e "${Info} 自动进入ssr安装程序"
+	Install_SSR
 	;;
 esac
